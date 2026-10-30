@@ -8,6 +8,7 @@ export default function App() {
 
   const handleLogout = () => {
     localStorage.clear();
+    //hi
     setRole(null);
   };
 
